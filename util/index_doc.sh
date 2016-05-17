@@ -16,7 +16,7 @@ cat << EOF
 //   HUBOT_SLACK_TOKEN
 //
 // Commands:
-//   $(grep // ./src/slackCommands.js | sed 's/\/\/ //')
+//   $(grep // ./slackCommands.js | sed 's/\/\/ //')
 //
 // Author:
 //   $(node -p 'require("./package.json").author')

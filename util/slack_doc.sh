@@ -4,7 +4,7 @@ cat  << EOF
 
 ### Slack
 \`\`\`
-$(grep '//' ./src/slackCommands.js | sed 's/\/\/ //')
+$(grep '//' ./slackCommands.js | sed 's/\/\/ //')
 \`\`\`
 
 Hostname is a search term.  It's limited to a total of 6 hosts otherwise an
