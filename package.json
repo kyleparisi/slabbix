@@ -1,11 +1,11 @@
 {
   "name": "slabbix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Upload zabbix graphs to slack",
   "main": "index.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/kyleparisi/slabbix.git"
+    "type": "git",
+    "url": "https://github.com/kyleparisi/slabbix.git"
   },
   "dependencies": {
     "dateformat": "^1.0.12",
