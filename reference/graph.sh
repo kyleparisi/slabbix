@@ -7,7 +7,7 @@
 #
 # **** WARNING!!!! ****
 # THIS SCRIPT DOES NOT DO ANY ERROR CHECKING! DO NOT USE BLINDLY
-# Also there is no simple way to check the validity of a graph id or weather
+# Also there is no simple way to check the validity of a graph id or whether
 # the results were successful as Zabbix will always return a JPEG image
 #
 # How it works:
