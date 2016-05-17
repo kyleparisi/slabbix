@@ -1,4 +1,4 @@
-var dateFormat = require('dateFormat');
+var dateFormat = require('dateformat');
 var osTmpDir = require('os').tmpdir();
 var logger = require('./logger');
 
