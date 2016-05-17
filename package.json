@@ -1,0 +1,25 @@
+{
+  "name": "slabbix",
+  "version": "1.0.0",
+  "description": "Upload zabbix graphs to slack",
+  "main": "index.js",
+  "dependencies": {
+    "dateformat": "^1.0.12",
+    "request-promise": "^3.0.0",
+    "term-img": "^0.2.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "jscs": "^3.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zabbix",
+    "slack",
+    "graphs"
+  ],
+  "author": "kyleparisi",
+  "license": "ISC"
+}
