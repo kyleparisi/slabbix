@@ -4,7 +4,7 @@ This project downloads graphs from zabbix to local disk to then posts to slack
 via hubot.
 
 ```bash
-npm install s <project>
+npm install s slabbix
 ```
 
 
@@ -31,7 +31,7 @@ npm install s <project>
 {
  "graphWidth": 1280,
  "graphPeriod": 3600,
- "stime": "20180517030835",
+ "stime": "20180517034319",
  "tmpdir": "/tmp"
 }
 ```
