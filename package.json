@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Upload zabbix graphs to slack",
   "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/kyleparisi/slabbix.git"
+  },
   "dependencies": {
     "dateformat": "^1.0.12",
     "request-promise": "^3.0.0",
