@@ -14,7 +14,13 @@ var imgcat = function (files) {
 
     file.on('finish', function () {
       // will only post image if > iterm 2.9
-      termImg(file.path, fallback);
+      // centos fallback does not happen - bug
+      try {
+        termImg(file.path, fallback);
+      } catch(e) {
+        // do nothing
+      }
+
     });
   });
 
