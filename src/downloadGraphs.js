@@ -47,6 +47,7 @@ module.exports = function (graphs) {
     logger(tempFile);
     var writer = fs.createWriteStream(tempFile);
 
+    // TODO(kyle): check for unauth response
     request(options).pipe(writer);
     return writer;
   });
