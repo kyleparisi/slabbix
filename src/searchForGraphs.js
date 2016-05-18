@@ -34,6 +34,7 @@ module.exports = function (hosts) {
   options.url = r.url_api;
   options.body.params.search.name = r.search;
   options.body.auth = process.env.zabbix_token;
+  options.body.params.filter.host = [];
   hosts.map(function (host) {
     options.body.params.filter.host.push(host.name);
   });
