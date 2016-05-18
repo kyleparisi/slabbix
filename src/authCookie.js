@@ -32,6 +32,7 @@ var post = function () {
   options.form.password = r.zabbix_password;
 
   logger(options);
+  // TODO(kyle): handle when user not authorized
   return request(options);
 };
 
