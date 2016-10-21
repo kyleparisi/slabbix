@@ -3,9 +3,7 @@
 This project downloads graphs from zabbix to local disk to then posts to slack
 via hubot.
 
-```bash
-npm install s slabbix
-```
+[no longer on npm]
 
 
 ### Requirements:
